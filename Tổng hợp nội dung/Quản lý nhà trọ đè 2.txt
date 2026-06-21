@@ -1,0 +1,127 @@
+CHƯƠNG 1: GIỚI THIỆU ĐỀ TÀI
+1. Lí do chọn đề tài
+Trước đây, quản lí nhà trọ thường phụ thuộc vào các công cụ
+và quy trình thủ công như viết tay, sử dụng giấy tờ, sổ sách để
+ghi nhận thông tin khách hàng, lập bảng kê thu chi, và quản lí
+phòng trống. Nhưng với sự phát triển của công nghệ thông tin
+hiện nay thì chúng ta cần một giải pháp nhanh chóng, tiết kiệm
+thời gian và hiệu quả hơn.
+Xây dựng một phần mềm quản lí nhà trọ là một lựa chọn hợp
+lý và cần thiết để đáp ứng nhu cầu ngày càng tăng về nhà trọ
+trong xã hội hiện đại. Phần mềm này giúp tổ chức và quản lí các
+thông tin về khách hàng, phòng trống, đặt phòng, thu tiền và
+quản lí tài chính một cách hiệu quả và tự động hóa. Điều này
+không chỉ giúp tiết kiệm thời gian và công sức cho nhà quản lí,
+mà còn đảm bảo tính chính xác và tin cậy trong các hoạt động
+kinh doanh. Bên cạnh đó, phần mềm cũng mang lại sự tiện lợi
+cho khách hàng khi cho phép họ dễ dàng đặt phòng, thanh toán
+và theo dõi tình hình thuê trọ.
+Vì thế, sau khi có kiến thức môn lập trình Window, nhóm
+chúng em quyết định xây dựng “Phần mềm quản lí nhà trọ”.
+2. Mục tiêu phát triển
+Xây dựng phần mềm cung cấp đầy đủ thông tin người thuê,
+về loại phòng thuê, khu vực thuê, tình trạng phòng thuê và các
+dịch vụ đi kèm phòng thuê đó. Quản lí được doanh thu, các hợp
+đồng cho nhà trọ.
+Giúp cho việc quản lí nhà trọ trở nên dễ dàng, thuận tiện hơn,
+giảm thiểu tính thủ công, chân tay. Mang lại hiệu quả cho việc
+quản lí thu chi mỗi tháng của nhà trọ. Phần mềm xây dựng cần
+mang tính trực quan, tối ưu và dễ sử dụng.
+3. Đối tượng
+- Người chủ khách trọ
+- Khách thuê trọ
+4. Mô tả
+Khách hàng tìm kiếm thông tin phòng trọ phù hợp ở khu vực
+mình ở, chọn loại phòng, các loại dịch vụ phù hợp với nhu cầu
+và mức giá.
+Khách hàng phải cung cấp thông tin cho chủ trọ khi đăng kí
+thuê phòng như: họ tên, năm sinh, chứng minh nhân dân, địa
+chỉ,… và chủ trọ sẽ nhập, lưu trữ các thông tin của khách hàng
+trên hệ thống.
+Chủ trọ cung cấp thông tin của phòng trọ và các dịch vụ liên
+quan, thông báo về tiền đặt cọc và lập hợp đồng cho thuê.
+Thêm thông tin người thuê trên hệ thống để quản lí.
+Tra cứu,  thêm, cập nhật   thông tin khách  hàng,   trạng thái
+phòng. Xóa thông tin khi người thuê rời đi.
+Chủ trọ xuất hóa đơn tiền phòng, tiền điện, quản lí doanh thu
+hàng tháng.
+CHƯƠNG 2: CƠ SỞ LÍ THUYẾT
+Mô   hình   3   tầng,   trong   tiếng   Anh   được   gọi   là   "Three-Tier
+Architecture", là một mô hình phát triển phần mềm phổ biến
+trong xây dựng ứng dụng. Các tầng trong mô hình 3 tầng bao
+gồm:
+Tầng giao  diện  người dùng  (Presentation  Layer):  Tầng này
+chịu trách nhiệm hiển thị thông tin và tương tác với người dùng.
+Nó tương tác trực tiếp với người dùng thông qua các giao diện
+như giao diện đồ họa (GUI). Tầng này chủ yếu chứa các thành
+phần giao diện người dùng như form, menu, nút bấm,…
+Tầng Logic (Business Layer): Tầng logic là nơi chứa các luật
+và quy tắc kinh doanh của ứng dụng. Nó xử lý các yêu cầu từ
+tầng giao diện người dùng, thực hiện các nghiệp vụ và quyết
+định logic liên quan đến dữ liệu và quy trình kinh doanh. Tầng này có thể bao gồm các lớp, đối tượng và các phương thức để
+thực hiện các chức năng nghiệp vụ cụ thể của ứng dụng.
+Tầng dữ liệu (Data Layer): Tầng dữ liệu là nơi lưu trữ và truy
+cập dữ liệu của ứng dụng. Nó có trách nhiệm đảm bảo tính toàn
+vẹn và an toàn của dữ liệu. Tầng này giao tiếp với các nguồn dữ
+liệu như cơ sở dữ liệu, tệp tin, dịch vụ web để thực hiện các
+thao tác lưu trữ và truy xuất dữ liệu.
+Mô hình 3 tầng giúp phân chia rõ ràng các trách nhiệm và
+chức năng của từng tầng, giúp dễ dàng quản lý và bảo trì ứng
+dụng. Nó cũng tạo điều kiện cho việc phát triển đồng thời và
+độc lập giữa các tầng, cho phép thay đổi hoặc nâng cấp một
+tầng mà không ảnh hưởng đến các tầng khác.
+7. Phân tích nhu cầu và dữ liệu
+7.1 Quản lí phòng
+Quản lí đăng kí thuê phòng: Khi khách đến thuê phòng, chủ
+trọ phải ghi nhận lại các thông tin liên quan đến khách trọ để
+phục vụ quản lí khách trong thời gian họ đăng kí thuê ở. Tất cả
+thông tin đăng ký được nhà trọ quản lí dựa trên mã khách, họ
+tên, chứng minh nhân dân, nghề nghiệp, địa chỉ, số điện thoại,
+ngày đăng kí.
+Quản lí thông tin nhận phòng: Sau khi thực hiện thủ tục đăng
+kí thuê phòng, khách thuê sẽ được chủ trọ cấp phòng và chính
+thức ghi nhận thời gian bắt đầu thuê phòng. Chủ phòng sẽ lập
+hợp đồng, thu tiền đặt cọc và cập nhật trạng thái phòng trên hệ
+thống.
+Quản lí việc trả phòng: Khi khách trọ có nhu cầu rời đi, chủ trọ
+có nhiệm vụ kiểm tra lại thông tin khách, những dịch vụ mà họ
+đã sử dụng, thời gian thuê. Đồng thời, lập hóa đơn thanh toán
+cho khách dựa trên thông tin người thuê, số phòng, dịch vụ sử
+dụng và thời gian trả phòng. Đối với khách ở qua tháng thì lập
+hóa đơn mỗi tháng.
+7.2 Quản lí khu vực
+Nhà trọ có các khu vực khác nhau, để quản lí thì hệ thống ghi
+nhận mã khu vực và tên của khu vực đó.
+7.3 Quản lí loại phòng
+Chia các loại phòng thành từng loại để đa dạng hóa nhu cầu
+của từng đối tượng khách cụ thể, mỗi loại phòng có mã loại
+phòng, diện tích và mức giá khác nhau.
+7.4 Quản lí dịch vụ: 
+Bên cạnh việc thuê phòng, khách hàng còn có nhu cầu sử
+dụng các loại dịch vụ. Để đáp ứng điều đó, nhà trọ cung cấp các
+loại dịch vụ và quản lí chúng thông qua mã dịch vụ, tên dịch vụ
+và đơn giá.
+7.5 Quản lí khách hàng
+Thông tin khách hàng được lưu trữ trên cơ sở dữ liệu một cách
+bảo mật, dễ dàng truy vấn và thực hiện các thao tác quản lí.
+8. Các chức năng chính
+8.1 Chức năng lưu trữ
+- Lưu trữ thông tin tài khoản đăng nhập
+- Lưu trữ thông tin khách hàng
+- Lưu trữ thông tin thuê, trả phòng 
+- Lưu trữ thông tin phòng, tình trạng phòng
+- Lưu trữ thông tin dịch vụ, các dịch vụ khách sử dụng
+- Lưu trữ thông các khu vực cho thuê, các loại phòng
+8.2 Chức năng nghiệp vụ
+- Quản lí khách hàng
+- Quản lí đăng kí thuê phòng
+- Quản lí nhận, trả phòng
+- Quản lí dịch vụ
+- Quản lí hóa đơn
+- Quản lí doanh thu
+8.3 Chức năng báo cáo
+- Báo cáo danh sách người thuê phòng
+- Báo cáo hóa đơn
+- Báo cáo doanh thu từng tháng
+
+

@@ -1,0 +1,391 @@
+DỰ ÁN XÂY DỰNG ỨNG DỤNG TÌM TRỌ TRÊN ĐỊA BÀN THÀNH PHỐ CẦN THƠ
+1.1 Đặt vẫn đề
+
+CHUONG I
+GIỚI THIỆU
+
+Năm 2023, Trường Đại học Cần Thơ đã đón 7.644 sinh viên cho các ngành
+đào tạo bậc đại học, tăng 644 sinh viên so với năm 2022. Có thể thấy mỗi năm Trường
+Đại học Cần Thơ nói riêng, các trưởng Đại Học và Cao Đằng khác trên địa bản Cần
+Thơ nói chung luôn tiếp nhận một lượng lớn sinh viên từ các tỉnh thành khác nhau đặc
+biệt là Đồng bằng sông Cứu Long. Và Cần Thơ là thành phố săm uất và phát triễn
+nhất ở vùng Đồng bằng sông Cứu Long, có vai trò là trung tâm kinh tế, văn hóa, xã
+hội, y tế, giáo dục và thương mại của cả vũng nên bên cạnh các trường đại học, nhiều
+trung tâm thương mại, kỹ thuật, khu công nghiệp, cũng được các công trình đầu tư xây
+dựng tại Cần Thơ, thu hút hàng chục nghìn dân nhập cư về sinh sống, học tập và làm
+việc. Với tình trạng đó mô hình nhà trọ đã không còn xa lạ đối với các thành phố lớn
+cũng như tại Cần Thơ. Tinh trạng đô dần đến hiện trạng nhà trọ trong khu vực đang bị
+thiếu hụt, không đáp ứng được yêu cầu về số lượng và cả chất lượng. Số lượng sinh
+viên lớn trong năm 2023 khiến nhu cầu thuế trọ tại Cần Thơ tăng, đinh điểm là tháng
+8 và tháng 9/2023 - khi các trường đại học, cao đằng bắt đầu khai giảng. Tinh trạng
+này trở nên đáng quan ngại khi hàng loạt khu trọ tại trung tâm treo biên “hết phòng"
+chỉ sau thời gian ngắn. Bên cạnh đó thì ứng dụng và website hỗ trợ tìm trọ thì khả it
+và tìm trọ ở địa bàn Cần Thơ gần như không có. Trên mạng thì tiềm ần nhiều nguy cơ
+và nhóm chúng tôi cũng đã nhận thấy không it sự việc tân sinh viên bị sập bầy nhà trọ
+ảo trên mạng xã hội. Nhiều khu nhà trọ còn dựa vào tình trạng bất cập đó mà tăng giá
+trọ cao hơn so với mặt bằng chung.
+Cùng với đó là xu thế phát triển công nghệ hiện tại ngày một cao hơn. Và thị
+trường ứng dụng di động là một thị trường lớn tại Việt Nam nhờ tỷ lệ sử dụng điện
+thoại thông mình và internet tại Việt Nam không ngừng tăng nhanh, ứng dụng di động
+hiện đã trở thành một phần quan trọng trong cuộc sống của con người và đặc biệt phần
+lớn người dùng ứng dụng tại Việt Nam có độ tuổi khá trẻ (dưới 30 tuổi) và am hiêu
+công nghệ nên họ sẵn sảng trải nghiệm công nghệ mới.
+Nắm bắt được tình hình thị trưởng, đồng thời giúp đỡ gia đình, bạn bè, sinh
+viên và những người tim trọ khác có cho mình một nguồn thông tin va những phòng
+trọ đáng tin cậy và nhanh chông nên nhom chúng tôi quyết định đe xuất thực hiện
+"DỤ AN XAY DUNG UNG DUNG TÌM NHÀ TRO TRÊN ĐỊA BÀN THÀNH
+PHỐ CẦN THƠ". Dự án này được xây dựng nhằm cung cấp cung cấp thông tin của
+từng phòng trọ tại thành phố Cần Thơ, bao gồm hình ảnh, vị tri của trọ cũng như giá
+thành. Ngoài ra ứng dụng còn cung cấp thanh công cụ tìm kiếm, giúp khách hàng có
+thể dề dàng tìm các thông tin khác như: an ninh khu vực, điều kiện sinh hoạt, giờ giấc,
+... với tinh năng tiện lợi này có thể hỗ trợ khách hàng nhanh chóng, tiện lợi, tiết kiệm
+thời gian hơn và đặc biệt co thể tránh được tinh trạng lừa đão đang trở nên phố bien
+dạo gần đây. Thông qua dự án này, mô hình mong muốn sẽ ngày cang được nhãn
+rộng, được nhiều người biết đến và được đón nhận tại nhiều thành phố lớn giúp cho
+mọi người có nguồn thông tin đáng tin cậy hơn. Đặc biệt hơn là mang lại lợi nhuận
+cho chủ đầu tư dự án.
+1.2 Mục tiêu
+1.2.1 Mục tiêu chung
+- Xây dựng được một ứng dụng tìm trọ đơn giản, hiệu quả, đảng tin cậy và
+nhanh chóng cung cấp cho mọi người đến địa bàn Thành phố Cần Thơ làm việc và
+học tập, đồng thời mang lại lợi nhuận cho chủ đầu tư.
+1.2.2 Mục tiêu cụ thê
+- Xây dựng, phát triển, duy trì ứng dụng lãu dài phục vụ cho sinh viên chuẩn bị
+nhập học có nhu cầu tìm trọ cũng như sinh viên đang học có nhu cầu chuyển trọ.
+- Lựa chọn được địa điễm phù hợp xây dựng, phát triển dự ân.
+- Phân tích thị trường, thị yếu sử dụng để xác định, phân loại sản phẩm tùy
+thuộc vào nhu cầu sử dụng, hoạch định rõ phân khúc khách hàng: lớn, vừa, nhô và
+tiềm năng.
+- Hiều rõ điểm mạnh, điểm yếu của ứng dụng.
+- Nắm bắt kịp thời, tìm hiều các đối thủ cạnh tranh.
+- Tạo nên sự riêng biệt, mới mẻ của loại hình kinh doanh mới trên địa bàn
+Thành phố Cần Thơ.
+- Ước tinh tạo ra doanh thu sau hoàn vốn là (năm đầu tiên): 577.150.000 VND
+VND/näm.
+- Ước tỉnh thời gian hoàn vốn là: 48 tháng.
+1.3 Phạm vi và phương pháp thực hiện đẽ tài
+1.3.1 Phạm vi của đề tải
+- Để hoàn thành một dự an, phải trải qua rất nhiều bước như là nhận diện cơ
+hội từ thị trường hoặc đưa ra ý tưởng sau đó kiểm tra tỉnh khả thi của ý tưởng, lập kẽ
+hoạch, triển khai, giám sát và kết thúc dự án. Do thời gian có hạn nên chúng tôi không
+thể thực hiện tất cả các bước trên, chúng tôi chỉ tập trung vào các bước hoạch định dự
+án:
+
+- Dự trù thời gian thực hiện các công việc trong dự án:
++ Giai đoạn 1: Tạo ứng dụng và lựa chọn địa điểm ban đầu cho dự án.
++ Giai đoạn 2: Thử nghiệm ứng dụng.
++ Giai đoạn 3: Tiền hành tải ứng dụng lên kho thiết bị được tích hợp trên
+thiết bị thông minh (CH play và Appstore) và tiếp tục khảo sát thị trường.
+- Các tài nguyên được sử dụng trong dự án: nguồn nhân lực là sinh viên và
+công nhân thông hiêu đường xả và thông hiêu IT cùng với nguồn nhân lực sẵn có, các
+cơ sở vật chất kỹ thuật, nguồn vốn từ các chủ đầu tư.
+- Dự ân được thực hiện trong phạm vi thành phố Cần Thơ.
+- Tỉnh hiệu quả kinh tế (IRR, NPV .. ).
+- Lợi ích đối với xã hội: Cung cấp thông tin liên lạc về phòng trọ đáng tin cậy
+và nhanh chông cho người tìm trọ và đồng thời tạo việc làm cho sinh viên.
+1.3.2 Phương pháp thực hiện đề tài
+- Thực hiện nhiều cuộc khảo sát trực tiếp nhà trọ cần cho thuê. Thu thập các bài
+quảng cáo trên các nền tăng mạng xã hội để tìm kiếm khách hàng. Tất cả nhằm phục
+vụ bước đầu thu thập thông tin cho ứng dụng.
+- Tim hiều về đổi thủ cạnh tranh và khảo sát nhu cầu khách hàng thông qua bảng
+khảo sát trực tiếp và online.
+- Dùng phương pháp cho điểm cô trọng số đề xác định vị tri xây dựng mô hình.
+- Sử dụng sơ đồ cấu trúc phân việc (WBS) để lập kẽ hoạch thực hiện các công
+việc trong dự án, sơ đõ thanh ngang (Sơ đõ Gantt) để thấy rõ tông thời gian thực hiện
+các công việc, sơ đồ mạng lưới (PERT) mô tã tiền trình để hoàn thành dự án.
+- Tỉnh hiệu quả kinh tế của dự án bằng cách phân tích giá trị hiện tại rông
+(NPV), suất thu lợi nội tại (IRR), phân tỉch dòng tiền sau thuế (CFAT).
+- Tinh thời gian bù vốn dựa trên phương pháp thời gian bù vốn - Tbv để tỉnh
+toán được thời gian cần thiết để khoản lợi ích thu được bù lại chi phí ban đầu.
+- Phân tích tỉnh rủi ro của dự án bằng cách xem xét tài liệu, hỏi ý kiến chuyên
+gia, sử dụng biểu đô.
+- Sữ dụng các công cụ, phần mềm trên máy tỉnh để hồ trợ cho việc tĩnh toán
+như Excel, Microsoft Project để hồ trợ vẽ biêu đồ.
+1.4 Nội dung chinh của đề tài
+Chương I: Giới thiệu
+Chương II: Cơ sở lý thuyết
+Chương III: Mô tả dự án
+Chương IV: Phân tích dự án
+Chương V: Kết luận
+
+CHƯƠNG II
+CƠ SỞ LÝ THUYẾT
+
+2.1 Một số lý thuyết
+2.1.1 Dự án
+Dự án (Project) là một quá trình gồm các công việc, nhiệm vụ có liên quan với
+nhau, được thực hiện nhằm đạt được mục tiêu đã đề ra trong điều kiện răng buộc về
+thời gian, nguồn lực và ngân sách.
+Các đặc điểm cảu dự án:
+- Mục tiêu rõ ràng.
+- Thời hạn nhất định.
+- Hạn chế về nguồn lực.
+- Tính độc đáo.
+- Liên quan đến nhiều bên và có sự tương tác giữa các bộ phận.
+- Môi trường hoạt động va chạm.
+- Tỉnh bất định và rủi ro cao.
+Chu kỷ hoạt động của một dự ản:
+- Giai đoạn khởi đầu (Initiation phase) bao gồm các hoạt động liên quan đến
+sự hình thành dự án:
++ Khái niệm (Conception)
++ Định nghĩa dự án (Definition)
++ Thiết kế (Design)
++ Thâm định (Approach)
++ Lựa chọn ( Selection)
++ Bắt đầu triển khai (Start-up)
+- Giai đoạn triển khai (Implementation Phase) bao gồm các hoạt động:
++ Hoạch định (Planning)
++ Lập tiến độ (Scheduling)
++ Tổ chức công việc (Organizing)
++ Giám sát (Monitoring)
++ Kiêm soát (Controlling)
+- Giai đoạn kết thúc (Termination Phase) bao gồm các hoạt động:
++ Chuyển giao (Handover)
++ Đảnh giá (Evaluation)
+Các loại dự án:
+- Dự ân hợp đồng (Contractual Project)
+- Dự ân nghiên cứu và phát triển (R&D Project)
+- Dự án xãy dựng (Construction Project)
+- Dự ản hệ thống thông tin (Information System Project)
+- Dự ản đào tạo và quản lý (Management & Training Project)
+- Dự ản bảo dưỡng lớn (Major Maintenance Project)
+- Dự ân viện trợ phát triển / phúc lợi công cộng (Public/Welfare/Development
+Project)
+2.1.2 Quản lý dự án
+Quá trình lập kế hoạch, điều phối thời gian, nguồn lực và giám sát quá trình
+phát triển của dự án nhằm đảm bảo cho dự án hoàn thành đúng thời hạn, trong phạm
+vi ngân sách được duyệt và đạt được các yêu cầu đã định về kỹ thuật và chất lượng
+sản phầm dịch vụ, bằng những phương pháp và điều kiện tốt nhất cho phép.
+Các chức năng quản lý dự án:
+- Chức năng hoạch định:
++ Xác định mục tiêu.
++ Định phương hướng chiến lược.
++ Hình thành công cụ quản lý.
+- Chức năng tố chức:
++ Làm việc gi?
++ Ai làm?
++ Phân công việc ra sao?
++ Ai báo cáo cho ai?
++ Chổ nào cần ra quyết định?
+- Chức năng lãnh đạo:
++ Động viên, hướng dần phối hợp nhân viên.
++ Chọn lựa một kênh thông tin hiệu quả.
++ Xử lý các mâu thuần trong tố chức.
+- Chức năng kiểm soát: nhằm đăm bảo các hoạt động được thực hiện theo kẽ
+hoạch và hướng đến mục tiêu.
++ Kiêm soát = Giảm sát + So sánh + Sửa sai
+2.2 Các công cụ quản lý dự án
+2.2.1 Sơ đõ cấu trúc phân việc (WBS)
+- WBS là công cụ quản lý dự án quan trọng nhất và là cơ sở cho tất cả các bước
+lập kế hoạch và giảm sát khác.
+- WBS là phương pháp xác định có hệ thống các công việc của một dự án bằng
+cách chỉa nhỏ dự ăn thành các công việc nhỏ dần nhằm mục địch:
++ Tách dự án thành các công việc với mục đích chỉ tiết, cụ thể hơn.
++ Xác định tất cả các công việc.
++ Ước tỉnh nguồn lực, thời gian, chi phi.
++ Phân chia trách nhiệm cụ thể và hợp lý.
+2.2.2 Sơ đô thanh ngang (Sơ đõ Gantt)
+Sơ đô Gantt là một trong những công cụ cố điền nhất hiện vẫn được sử dụng
+phố biến trong quản lý tiên độ thực hiện dự án. Các công tác được biếu diền trên trục
+tung bằng thanh ngang. Thời gian tương ứng được thể hiện trên trục hoành.
+Ưu điểm:
+- Dề xây dựng và nhận biết công việc.
+- Thấy rõ tông thời gian thực hiện các công việc.
+Nhược điểm:
+- Không thể hiện được mỗi quan hệ giữa các công tác.
+- Không ghi rõ quy trình công nghệ.
+- Dự ản có nhiều công tác khô thể hiện rõ nét.
+- Phù hợp áp dụng cho những dự án có quy mỗ nhỏ, không phức tạp.
+2.2.3 Sơ đô mạng PERT
+PERT có tên đãy đủ là phương pháp Tổng quan và Đánh giá Chương trình là
+phương pháp xác suất, cho phép tìm xác suất toàn bộ dự án trong thời gian định sẵn.
+2.3 Các phương pháp tinh toán kỹ thuật
+2.3.1 Phương pháp xác định địa điểm bằng trọng số đơn giản
+Tiền trình thực hiện:
+1. Xác định những yếu tố quan trọng ảnh hướng đến lựa chọn địa điễm.
+2. Cho trọng số từng yếu tố và xác định mức độ quan trọng của nó.
+3. Xây dựng thang điểm cho từng yếu tố.
+4. Tiền hành cho điểm từng yếu tố ở vùng dự định lựa chọn địa điểm.
+5. Nhân số điễm với trọng số của từng yếu tố.
+6. Tinh tông số điềm cho từng địa điễm.
+7. Lựa chọn địa điểm có tổng số điểm cao nhất.
+2.3.2 Giá trị hiện tại ròng NPV
+Giá trị hiện tại rông là hiệu số của giá trị hiện tại dòng doanh thu trữ đi giá trị
+hiện tại dòng chỉ phi tinh theo lãi suất chiết khấu lựa chọn.
+Công thức tinh: NPV = 
+
+Trong đó:
+
+NPV =2-
+
+· CF: dòng tiền ròng trong khoản thời gian.
+· i: tỷ lệ chiết khấu.
+· t: số khoản thời gian.
+Tiêu chuẩn đánh giá:
+- NPV > 0: Doanh thu lớn hơn chỉ phi => dự án tốt.
+- NPV < 0: Doanh thu nhỏ hơn chỉ phí => dự án xấu.
+- NPV = 0: Doanh thu bằng chỉ phi => cũng là một dự án đáng giá nên tuy theo
+mức độ của dự án mã xem xét có thực hiện hay không.
+Ưu điểm:
+- Lợi ích của chủ sở hữu được tối đa hóa.
+- Có tỉnh đến rủi ro và giá trị theo thời gian của dòng tiền.
+- Dề dàng trừ hoặc cộng NPV với nhau.
+Nhược điểm:
+- NPV phụ thuộc vào tỷ suất chiết khấu là chủ yếu để tinh toán, tuy nhiên đề xác
+định được tỷ lệ chiết khấu thì lại rất khô khăn khi thị trưởng vốn biến động.
+- Để sử dụng được chỉ tiêu phân tích tài chỉnh này, cần nắm rõ dòng thu chỉ cả đời
+dự ản. Đây là một việc mà không phải khi nào cũng cô thể dự kiến được.
+- NPV chỉ áp dụng để tỉnh lợi nhuận cho các dự ản có cùng tuổi thọ.
+2.3.3 Suất thu lợi nội tại IRR
+- Suất thu lợi nội tại IRR là suất chiết khấu làm cho NPV của dự án có giá trị bằng
+zero. Thông thường để xác định IRR, người ta thường dùng phương pháp ước lượng
+lai suất chiết khấu r.
+- Ta tim sao cho NPV1 >0
+- Ta tim sao cho NPV2 <0
+Sau đó áp dụng vào công thức IRR
+Trong đó:
+
+IRR = r,+(r2-r,)-
+
+· rlà tỷ suất chiết khấu cô giá trị nhô hơn sao cho NPV dương nhưng gần
+bằng 0
+· T2 là t suất chiết khấu có giá trị lớn hơn NPV ăm nhưng gần bằng 0
+· r,vậr2 cách nhau không quả 0.05%
+· NPV, giá trị hiện tại thuần tỉnh theor,
+. NPV2 giá trị hiện tại theo tinh theo "2
+Kết quả IRR thường sẽ năm trong khoảng giữa và rịvăr2 (F,< IRR <r2)
+> IRR > r. Dự ân đáng giá
+> IRR < r: Không chấp nhận dự án
+Ưu điểm:
+- Dề tỉnh toán, không bị phụ thuộc hay chỉ phối bới chi phí vốn.
+- Khả năng sinh lời được tinh theo tỹ lệ % nên rất dề để so sánh các dự án.
+- Có thể xác định và lựa chọn lãi suất tốt nhất cho dự án đầu tư.
+Nhược điểm:
+- Mất nhiều thời gian đề đưa ra kết quả chính xác.
+- Do không sử dụng giá trị vốn để tinh nên khã năng sinh lời mà IRR mang lại
+- Có thể không đúng với thực tế. Đặc biệt trong những trường hợp dự án loại
+bỏ nhau thì IRR còn có thể khiến các nhà đầu tư bỏ qua dự án có lãi suất
+ròng cao.
+- Với những dự án có đầu tư bố sung cao, IRR sẽ rất khỏ xác định do NPV bị
+đỗi dấu nhiều lần.
+2.3.4 Phương pháp thời gian bù vốn (Th)
+- Thời gian bù vốn (Th ) là thời gian cần thiết để khoản lợi ích thu được bù lại chi
+phi đầu tư ban đầu.
+Công thức tinh thời gian bù vốn cô xét chiết khấu:
+CF
+
+NPV
+NPV+&NPV2V&i
+
+-P=0
+
+Trong đó:
+· P : chỉ phi đầu tư ban đầu.
+· CF,: dòng tiền ròng trong khoản thời gian t.
+· t : số khoản thời gian.
+· i : tỷ suất chiết khấu.
+Ưu điểm:
+- Phương pháp thời gian hoàn vốn có chiết khấu đã khắc phục được hạn chế của
+phương pháp thời gian hoàn vốn giản đơn là xem xét dự án có tỉnh đến giá trị thời
+gian của tiên.
+Nhược điểm:
+- Phương pháp thời gian hoàn vốn đầu tư chú trọng xem xét lợi ich ngắn hạn hơn
+là lợi ích dài hạn.
+- Phương pháp này ít chủ trọng đến việc xem xét khoản thu sau thời gian hoàn võn.
+Do đó kỳ hoàn vốn ngắn chưa chắc là căn cứ chính xác để lựa chọn dự án này thay vi
+dự án khác.
+- Đặc biệt, đối với các dự án cô mức sinh lời chậm hay thời gian hoàn vốn kéo dài
+như dự ản phát triển sản phẩm mới hay dự án xâm nhập vào thị trường mới thì phương
+pháp lựa chọn dự án này sẽ không phù hợp.
+2.3.5 Phân tich tỷ số lợi ich - chi phí (B/C)
+- Neu PW của lợi ich > PW của chỉ phí thi
+
+- Nếu PW của lợi ich < PW của chi phí thì
+
+- Nếu PW của lợi ich = PW của chi phí thi
+
+2.3.6 Khấu hao
+- Khấu hao là việc định giá, tỉnh toán, phân bỗ một cách có hệ thống giá trị của tài
+sản do sự hao mòn tài sản sau một khoảng thời gian sử dụng.
+- Khấu hao tài sản cố định được tinh vào chỉ phí sản xuất kinh doanh trong suốt
+thời gian sử dụng tài sản cố định. Khấu hao tài sản cố định liên quan đến việc hao
+mòn tài sản, đó là sự giảm dần về giá trị và giá trị sữ dụng do tham gia vào quá trinh
+sản xuất kinh doanh, do hao môn tự nhiên hoặc do tiến bộ khoa học công nghệ.
+Phương pháp khấu hao theo đường thắng:
+Mức trích khấu hao
+
+trung bình hằng năm
+
+của tài sản cố định
+
+B
+
+PW>1=> Có lời.
+PW
+
+PW <1 => Thua lò.
+PW ha
+=1 => Hòa vốn.
+PW.M
+Nguyên giá tài sản cổ định
+Thời gian sử đựng
+2.3.7 Thuế
+- Thuế là số tiền thu của các công dân, hoạt động và đõ vật (như giao dịch, tài sản)
+nhằm huy động tài chính cho chính quyền, nhằm tải phân phối thu nhập, hay nhắm
+điều tiết các hoạt động kinh tế - xã hội.
+Các khái niệm:
+- Dòng tiền tệ trước thuế
+CFBT = Doanh thu thuần - Chi phí
+- Thu nhập chịu thuế (TI)
+TI = CFBT - Khấu hao
+- Thuế thu nhập doanh nghiệp
+Thuế = TI x Thuế suất
+- Dòng tiền sau thuế
+CFAT = CFBT - Thuế
+- Công ty có vay mượn thì được miền thuế thu nhập trên phan tiền lai co liên
+quan.
+Khi đó:
+
+TI = CFBT - Khấu hao - tiền lãi
+CFAT = CFBT - Thuế tiền - lãi tiền gốc
+2.4 Cơ sở pháp lý
+- Thông tư 39/2016/TT-NHNN quy định về hoạt động cho vay của tố chức tin
+dụng, chi nhánh ngân hàng nước ngoài đối với khách hàng do ngân hàng nhà nước
+Việt Nam ban hành.
+- Nghị định 78/2015/NĐ-CP về đăng kỹ doanh nghiệp.
+- Thông tư 20/2015 của Bộ Kế hoạch và Đầu tư hướng dần về đăng ký doanh
+nghiệp.
+- Nghị định 22/2020/NĐ/CP sửa đối nghị định 139/2016/NĐ/CP quy định về lệ phí
+môn bài.
+- Nghị định 139/2016/NĐ-CP ngày 4/10/2016 của Chính phủ quy định về lệ phí
+môn bài, các bậc thuế môn bải phải nộp đối với Doanh nghiệp, tố chức và cả nhân.
+- Nghị định 153/2016/NĐ-CP ngày 14/11/2016 của Chính phủ quy định Mức
+lương tối thiêu vùng đối với người lao động làm việc theo Hợp đồng lao động.
+- Nghị định 05/2015/NĐ-CP quy định chỉ tiết và hướng dẫn thi hành một số nội
+dung của Bộ luật Lao động.
+- Thông tư 23/2015/TT-BLĐTBXH hướng dần thực hiện một số điều về tiền lương
+của Nghị định 05/2015/NĐ-CP.
+- Thông tư 15/2016/TT-BXD hướng dần về cấp giấy phép xây dựng do Bộ trưởng
+Bộ xây dựng ban hành.
+- Luật đất đai số 13/2003/QH11, quy định về việc mua bán, thuê mặt bằng, đất đai.
+- Nghị định 43/2014/NĐ-CP hướng dần thi hành Luật Đất đai.
+- Nghị định 01/2017/NĐ-CP sửa đối Nghị định 43/2014/NĐ-CP hướng dần thi
+hành Luật Đất đai.
+- Luật bảo vệ môi trường số 55/2014/QH13.
+- Thuế Giá trị gia tăng: Theo quy định tại Điềm b, Khoản 2 Điều 8 Nghị định số
+209/2013/NĐ-CP ngày 18/12/2013 của Chính phủ cơ sở kinh doanh dịch vụ cô doanh
+thu trên 100.000.000 đồng/năm thì Thuế = Doanh Thu” tỷ lệ phần trăm (%).
+- Quyết định số 45/2013/TT-BTC ngày 25/4/2013 của Bộ trưởng Bộ Tài chính về
+phương pháp trích khấu hao tài sản cố định.
+- Quyết Định 04/2019/QĐ-UBND Về Quy Định Giá Tiêu Thụ Nước Sạch Tại Đô
+Thị Và Khu Vực Nông Thôn Trên Địa Bản Thành phố Cần Thơ.
+- Quyết Định 648/QĐ-BCT Năm 2019 Điều Chỉnh Mức Giá Bản Lẻ Điện Bình
+Quân Và Quy Định Giá Bản Điện Do Bộ Trướng Bộ Công Thương Ban Hành.
+- Điều 4 Thông tư 59/2015/TT-BCT quy định về nguyên tắc thông bao, đang kỹ
+ứng dụng di động
+- Điều 20 Thông tư 59/2015/TT-BCT quy định về công bố danh sách các ứng dụng
+di động đã thực hiện thủ tục thông báo và đăng kỹ
+- Mục 2 Chương IV Nghị định 52/2013/NĐ-CP về quân lý website cung cấp dịch
+vụ thương mại điện tử
+- Mục 1 Chương V Nghị định 52/2013/NĐ-CP về bảo vệ thông tin cá nhân trong
+thương mại điện tử.

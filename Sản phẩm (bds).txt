@@ -1,0 +1,279 @@
+Sản phẩm (bds)
+1. LỜI MỞ ĐẦU (Trang 1-2)
+Nội dung:
+"Hà Nội là thủ đô của nước Cộng hòa Xã hội Chủ Nghĩa Việt Nam, là một đô thị đông dân cư với mật độ dân số hơn $2000$ người/km2, nhu cầu về bất động sản tại khu vực Hà Nội vì thế cũng rất lớn và phức tạp. Chính vì vậy, với những kiến thức lập trình đã được học và thực hành, em đã chọn đề tài “Ứng dụng bản đồ số xây dựng website tìm kiếm và cho thuê đất động sản khu vực Hà Nội” để làm đồ án tốt nghiệp với mục đích cung cấp một hệ thống hữu ích giúp người sử dụng có thể tìm kiếm và đăng tải thông tin các loại bất động sản, với giao diện được thiết kế trực quan, dễ sử dụng, nhanh chóng và đáng tin cậy.
+2. MỤC TIÊU ĐỀ TÀI (Mục 1.2.1, Trang 9)
+Nội dung:
+"Đây là một website chứa một lượng lớn thông tin về các bất động sản mà hiện tại chủ nhà không có nhu cầu sử dụng và muốn cho thuê.12
+Người truy cập vào website có thể sử dụng chức năng tìm kiếm theo khu vực như ở thành p3hố, 4quận huyện, theo giá tiền thuê cũng như theo khu vực được khoanh vùng cụ thể...5
+Website cũng có khả năng tiếp nhận, cập nhật thông tin về một ngôi nhà nào đó mà người chủ 6nhà muốn đăng tải trên website."
+3. ĐỀ XUẤT GIẢI PHÁP VÀ MÔ TẢ CÁC CHỨC NĂNG CỦA HỆ THỐNG (Mục 1.3, Trang 10)
+Nội dung:
+"Giải pháp đề xuất cho hệ thống là xây dựng một Website cho thuê và tìm kiếm bất động sản, với các chức năng chính như sau:
+•	Lưu trữ các thông tin về đặc điểm của bất động sản cần cho thuê như khu vực, địa chỉ, giá thuê phòng và thông tin liên lạc với chủ nhà. Thông tin được lưu trữ theo cấu trúc hợp lý để tìm kiếm nhanh.
+•	Giao diện bắt mắt, thân thiện.
+•	Trang bị chức năng tìm kiếm linh hoạt, phân loại bất động sản rõ ràng cùng khả năng tìm kiếm bất động sản trực tiếp trên bản đồ giúp người dùng có thể tìm kiếm nhanh chóng."
+4. PHÂN TÍCH YÊU CẦU CỦA HỆ THỐNG (Mục 1.4, Trang 10-11)
+Đây là các yêu cầu chi tiết về tính năng mà sản phẩm phải có:
+Đối với người dùng:
+•	Hiển thị danh sách các bất động sản và các thông tin liên quan.
+•	Phân loại bất động sản theo các tiêu chí (loại hình, giá, khu vực).
+•	Tìm kiếm bất động sản theo loại, vị trí, diện tích, giá thành.
+•	Đăng tải thông tin bất động sản cần cho thuê.
+•	Hiển thị thông tin chi tiết về bất động sản (vị trí, diện tích, giá, tiện ích, hình ảnh thực tế).
+•	Gửi báo cáo về bất động sản không hợp lệ cho quản trị viên.
+Đối với quản trị viên:
+•	Quản lý danh sách các bất động sản được đăng tải.
+•	Quản lý các tài khoản người dùng đăng ký trên hệ thống.
+•	Quản lý và xử lý các báo cáo về bất động sản và người dùng.
+•	Theo dõi, thống kê hoạt động của hệ thống.
+
+Framework
+
+/ Library / Open Source (file bds)
+
+Công cụ lập
+
+trình được sử dụng 1.5.1. Ngôn ngữ lập trình PHP PHP là ngôn ngữ lập trình web
+
+được phát triển từ ngôn ngữ kịch bản (script) với mục đích xây dựng trang web
+
+cá nhân (Personal Home Pages), sau đó đã được phát triển thành một ngôn ngữ
+
+hoàn chỉnh và được ưa chuộng trên toàn thế giới trong việc phát triển các ứng dụng
+
+web based. PHP (PHP: Hypertext Preprocessor) là hiện ngôn ngữ kịch bản lập
+
+trình phía máy chủ (server-side) phổ biến nhất thế giới, do được tối ưu hóa cho
+
+các ứng dụng web, tốc độ nhanh, nhỏ gọn, dễ dàng nhúng vào trang HTML, cú pháp
+
+giống C và Java, dễ học và thời gian xây dựng sản phẩm tương đối ngắn hơn so với
+
+các ngôn ngữ khác. 1.5.2. Hệ quản trị cơ sở dữ liệu MySQL MySQL là hệ quản trị
+
+cơ sở dữ liệu tự do nguồn mở phổ biến nhất thế giới và được các nhà phát triển
+
+rất ưa chuộng trong quá trình phát triển ứng dụng. MySQL là cơ sở dữ liệu tốc độ
+
+cao, ổn định và dễ sử dụng, có tính khả chuyển, hoạt động trên nhiều hệ điều
+
+hành cung cấp một hệ thống lớn các hàm tiện ích rất mạnh. Với tốc độ và tính bảo
+
+mật cao, MySQL rất thích hợp cho các ứng dụng có truy cập cơ sở dữ liệu trên
+
+internet. MySQL miễn phí và có nhiều phiên bản cho các hệ điều hành khác nhau:
+
+phiên bản Win32 cho các hệ điều hành dòng Windows, Linux, Mac OS X, Unix,
+
+FreeBSD, NetBSD, Novell NetWare, SGI Irix, Solaris, SunOS,.. MySQL là một trong
+
+những ví dụ rất cơ bản về Hệ Quản trị Cơ sở dữ liệu quan hệ sử dụng Ngôn ngữ
+
+truy vấn có cấu trúc (SQL). MySQL được sử dụng cho việc bổ trợ NodeJs, PHP,
+
+Perl, và nhiều ngôn ngữ khác, làm nơi lưu trữ những thông tin trên các trang
+
+web viết bằng NodeJs, PHP hay Perl,.. 1.5.3. Google map API lOMoARcPSD|59561451
+
+8 Google Map là một dịch vụ ứng dụng vào công nghệ bản đồ trực tuyến trên web
+
+miễn phí được cung cấp bởi Google, hỗ trợ nhiều dịch vụ khác của Google đặc biệt
+
+là dò đường và chỉ đường; hiển thị bản đồ đường sá, các tuyến đường tối ưu cho
+
+từng loại phương tiện, cách bắt xe và chuyển tuyến cho các loại phương tiện
+
+công cộng (xe bus, xe khách …), và những địa điểm (kinh doanh, trường học, bệnh
+
+viện, cây ATM…) trong khu vực cũng như khắp nơi trên thế giới. Map API là một
+
+phương thức cho phép 1 website B sử dụng dịch vụ bản đồ của website A (gọi là
+
+Map API) và nhúng vào website của mình (site B). Site A ở đây là google map,
+
+site B là các website cá nhân hoặc tổ chức muốn sử dụng dịch vụ của google (di
+
+chuột, room, đánh dấu trên bản đồ…) Các ứng dụng xây dựng trên maps được nhúng
+
+vào trang web cá nhân thông qua các thẻ javascripts do vậy việc sử dụng API
+
+google rất dễ dàng. Google Map API đã được nâng cấp lên phiên bản v3 không chỉ
+
+hỗ trợ cho các máy để bàn truyền thống mà cho cả các thiết bị di động; các ứng
+
+dụng nhanh hơn và nhiều hơn. Các dịch vụ của Google Map API hoàn toàn miễn phí
+
+với việc xây dựng một ứng dụng nhỏ, với mục đích kinh doanh, doanh nghiệp thì
+
+chỉ cần trả một khoản phí nhỏ. Google Map API có thể được sử dụng để đánh dấu
+
+các địa điểm trên bản đồ kèm theo thông tin cho địa điểm đó: khu vui chơi giải
+
+trí, nhà hàng khách sạn, cây ATM, bệnh viện, trường học,… bất cứ địa điểm nào bạn
+
+muốn; chỉ dẫn đường đến các địa điểm cần tìm (đường tối ưu và nhiều lựa chọn
+
+khác), chỉ dẫn đường giao thông công cộng sử dụng các service google cung cấp;
+
+khoanh vùng các khu vực như trung tâm kinh tế, khu đô thị, khu ô nhiễm…
+
+Research
+
+/ Result (bds)
+
+3.3.1. Thực
+
+nghiệm
+
+ - Website chưa được chạy thực nghiệm 
+
+- Hệ thống của
+
+em chưa được triển khai thực tế, do nơi chúng em khảo sát đã có một chương
+
+trình tương đối hoàn chỉnh.
+
+ 3.3.2. Kết quả đạt được 
+
+- Giao diện
+
+thân thiện, dễ sử dụng. 
+
+- Hệ thống
+
+hoàn chỉnh cơ bản xử lý kết quả nhanh.
+
+ - Chức năng dễ dàng cho nhiều đối tượng người
+
+dùng.
+
+ - Khả năng tìm kiếm nhanh chóng, trực quan 
+
+3.3.3. Hạn
+
+chế lOMoARcPSD|59561451 39
+
+ - Chưa xử lý được tối ưu các ràng buộc, dữ liệu
+
+sắp xếp chưa được linh hoạt, hợp lý. 
+
+- Chưa bắt
+
+được hết các lỗi của hệ thống. 
+
+3.3.4. Hướng
+
+phát triển 
+
+- Tối ưu hóa
+
+hơn nữa chức năng và giao diện người dùng 
+
+- Tăng cường
+
+khả năng quản lý hệ thống của người quản trị 
+
+- Phát triển
+
+website thành nơi người dùng có thể cập nhật và trao đổi các tin tức liên quan
+
+đến bất động sản.
+
+Dataset /
+
+Benchmark (bds)
+
+3.1 Thiết kế
+
+cơ sở dữ liệu 3.1.1 Các bảng trong cơ sở dữ liệu a. Bảng thông tin người dùng
+
+Chức năng: lưu trữ thông tin người dùng Bảng 3-1: Bảng thông tin người dùng
+
+User STT Tên trường Kiểu dữ liệu Khóa Mô tả 1 ID Int(10) Khóa chính Mã người
+
+dùng 2 Name Varchar(255) Tên người dùng 3 Username Varchar(255) Tên đăng nhập 4
+
+Email Varchar(255) Email người dùng 5 Password Varchar(255) Mật khẩu 6 Right
+
+Int(11) Loại tài khoản (0: tài khoản thường, 1: tài khoản quản trị) 7 Phone
+
+Varchar(255) Số điện thoại 8 Avatar Varchar(255) Hình ảnh đại diện
+
+lOMoARcPSD|59561451 25 9 Remember_to ken Varchar(100) Ghi nhớ thông tin đăng nhập
+
+của người dùng 10 Created_at Timestamp Thời gian khởi tạo tài khoản 11
+
+Update_at Timestamp Thời gian cập nhật thông tin tài khoản 12 Tình trạng
+
+Int(11) Tình trạng tài khoản (1: Tài khoản đang hoạt động; 0: Tài khoản đang bị
+
+khóa) b. Bảng thông tin bất động sản Chức năng: lưu trữ thông tin bất động sản
+
+Bảng 3-2: Bảng thông tin bất động sản Motelrooms STT Tên trường Kiểu dữ liệu
+
+Khóa Mô tả 1 ID Int(10) Primary key Mã bất động sản lOMoARcPSD|59561451 26 2
+
+Title Varchar(255) Tiêu đề 3 Description Text Mô tả chi tiết 4 Price Int(11)
+
+Giá bất động sản 5 Area Int(11) Diện tích(m2) 6 Count_view Int(11) Số lượt xem
+
+7 Andress Varchar(255) Địa chỉ 8 Latlng Varchar(255) Tọa độ trên bản đồ 9 Image
+
+Varchar(255) Hình ảnh bất động sản 10 User_id Int(10) Foreign key Mã người dùng
+
+đăng tin 11 Category_id Int(11) Mã loại bất động sản 12 District_id Int(11) Mã
+
+quận/huyện 13 Utilities Varchar(255) Các tiện ích của bất động sản
+
+lOMoARcPSD|59561451 27 14 Created_at Timestamp Thời gian đăng tải 15 Updated_at
+
+Timestamp Thời gian cập nhật 16 Phone Varchar(255) Số điện thoại liên hệ 17
+
+Approve Int(11) Tình trạng phê duyệt (1: đã được phê duyệt; 0: đang chờ kiểm
+
+duyệt) 18 Slug Varchar(255) Đường dẫn c. Bảng thông tin quận/huyện Chức năng:
+
+lưu trữ thông tin quận/huyện Bảng 3-3: Bảng thông tin quận/huyện Districts STT
+
+Tên trường Kiểu dữ liệu Khóa Mô tả 1 ID Int(10) Khóa chính Mã quận/huyện 2 Name
+
+Varchar(255) Tên quận/huyện 3 Slug Varchar(255) Đường dẫn d. Bảng loại bất động
+
+sản Chức năng: lưu trữ thông tin các loại bất động sản Bảng 3-4: Bảng thông tin
+
+loại bất động sản Categories lOMoARcPSD|59561451 28 STT Tên trường Kiểu dữ liệu
+
+Khóa Mô tả 1 ID Int(10) Khóa chính Mã loại bất động sản 2 Name Varchar(255) Tên
+
+loại bất động sản 3 Slug Varchar(255) Đường dẫn e. Bảng báo cáo từ người dùng
+
+Chức năng: lưu trữ thông tin báo cáo từ người dùng Bảng 3-5: Bảng thông tin báo
+
+cáo từ người dùng Reports STT Tên trường Kiểu dữ liệu Khóa Mô tả 1 ID Int(10)
+
+Khóa chính Mã bất động sản 2 Ip_andress Varchar(255) Địa chỉ ip của người gửi
+
+báo cáo 3 Id_motelroom Int(11) Mã bất động sản 4 Status Int(11) Trạng thái 5
+
+Created_at Timestamp Thời gian tạo báo cáo 6 Updated_at Timestamp Thời gian cập
+
+nhật báo cáo f. Bảng Bình luận lOMoARcPSD|59561451 29 Chức năng: lưu trữ các
+
+bình luận của người dùng về Bất động sản có trong hệ thống Bảng 3-6: Bảng Bình
+
+luận Reports STT Tên trường Kiểu dữ liệu Khóa Mô tả 1 ID Int(10) Khóa chính Mã
+
+Bình luận 2 content Text Nội dung bình luận 3 User_id Int(10) Mã thành viên 4
+
+Room_id Int(10) Mã Bất động sản 5 Created_at Timestamp Thời gian bình luận
+
+Metrics (bds)
+
+3.3.2. Kết
+
+quả đạt được - Giao diện thân thiện, dễ sử dụng. - Hệ thống hoàn chỉnh cơ bản xử
+
+lý kết quả nhanh. - Chức năng dễ dàng cho nhiều đối tượng người dùng. - Khả
+
+năng tìm kiếm nhanh chóng, trực quan.

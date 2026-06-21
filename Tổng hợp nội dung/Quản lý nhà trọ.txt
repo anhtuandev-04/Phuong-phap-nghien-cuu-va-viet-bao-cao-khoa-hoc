@@ -1,0 +1,500 @@
+TÓM TẮT 
+Hiện nay, khi các trường Đại học ngày một mở rộng, các khu công nghiệp xuất 
+hiện ngày một nhiều, lượng sinh viên và người lao động sống xa nhà cũng tăng nhanh 
+chóng một cách đáng kể. Chnh xu hướng này kéo theo việc các khu nhà trọ mọc lên như 
+nấm, đặc biệt là gần các trường Đại học Cao đẳng, khu công nghiệp, từ nội cho tới ngoại 
+thành. Thực tế thì kinh doanh phòng trọ hay cho thuê căn hộ là một hình thức được nhiều 
+người quan tâm hiện nay, bởi nó mang đến thu nhập cao và ổn đnh cho chủ nhà, nhu cầu 
+luôn cao và ít chu những tác động từ môi trường bên ngoài. Nếu số lượng phòng trọ của 
+bạn ở mức trung trung, không quá nhiều thì dường như việc quản lý có lẽ cũng khá dễ 
+dàng. 
+Chính vì thu nhập cao và không sợ không có người thuê, nhiều chủ nhà mạnh dạn 
+đầu tư vào hình thức kinh doanh này, với quy mô nhà trọ lớn, nhiều phòng hay thậm chí 
+là phân bố ở nhiều chỉ khác nhau, điều này khiến bạn không có đủ thời gian để quản lý tất 
+cả và sử dụng phần mềm quản lý nhà trọ chính là giải pháp đơn giản, hiệu quả để bạn có 
+thể theo dõi tất cả mọi thứ...Chính vì thế em chọn đề tài: “Xây dựng ứng dụng di động 
+quản lý nhà trọ ” làm đề tài tiểu luận cuối kì cho môn học “Phát triển ứng dụng di 
+động”. 
+Gồm 5 chương: 
+Chương 1: Giới thiệu tổng quan đề tài 
+Chương 2: Cơ sở lý thuyết 
+Chương 3: Phân tích và thiết kê hệ thống 
+Chương 4: Hiện thực chức năng và kiểm thử phần mềm 
+Chương 5: Kết luận và hướng phát triển
+MỞ ĐẦU 
+Cùng với xu thế toàn cầu hóa, kinh doanh quốc tế và cuộc cách mạng công nghệ 4.0 
+đang phát triển mạnh mẽ, hoạt động thương mại điện tử cũng ngày càng trở nên đa dạng, 
+phong phú và có ý nghĩa hết sức quan trọng đối với mỗi quốc gia trong nền kinh tế toàn 
+cầu. 
+Thương mại điện tử là một lĩnh vực mới rất phức tạp liên quan đến rất nhiều vấn đề 
+như con người, văn hóa, phong tục tập quán, công nghệ, hệ thống luật pháp…do vậy việc 
+phát triển thương mại điện tử luôn được ưu tiên trong xu hướng phát triển kinh tế hiện nay. 
+Thay vì phải đi tận ra cửa hàng để lựa chọn những sản phẩm thì giờ đây chúng ta có 
+thể ngồi ở nhà xem tất cả những loại mỹ phẩm, thông tin chi tiết cũng như giá cả mà cửa 
+hàng bày bán. Từ đó sẽ chọn ra đôi ưng ý và chỉ cần đặt mua là vài ngày sau sẽ có người 
+giao hàng đến thật tiện lợi. 
+Là sinh viên chuyên ngành Kỹ Thuật Phần Mềm - Trường Đại học Thủ Dầu Một, 
+được đào tạo được cung cấp những kiến thức từ cơ bản đến phức tạp về thương mại điện 
+tử nói chung và ứng dụng phần mềm nói riêng đã giúp em nâng cao trình độ hiểu biết của 
+mình. Từ đó có thể vận dụng những kiến thức đã được học vào quá trình làm việc, nâng 
+cao trình độ
+iệu quả cao, độ chuẩn xác lý tưởng như mong muốn. Lúc này, 
+ứng dụng phần mềm hỗ trợ trở thành sự lựa chọn lý tưởng bởi những lợi thế mà phần 
+mềm hữu ch này mang lại. Tìm hiểu, xác đnh được lý do vì sao nên sử dụng phần mềm 
+quản lý nhà trọ - phòng trọ để ứng dụng theo nhu cầu diễn ra thuận lợi, có được kết quả 
+cao như ý muốn. 
+Những kh khăn khi quản lý nhà trọ th công: 
+Việc quản lý nhà trọ theo phương pháp thủ công là cách thức phổ biến, được áp 
+dụng từ nhiều năm nay cho nhu cầu kinh doanh nhà trọ của từng người. Với phương pháp 
+này khi áp dụng tồn tại những vấn đề tiêu cực, những ảnh hưởng mà chúng ta hoàn toàn 
+không mong muốn. Có thể tìm hiểu thấy được những khó khăn, những vấn đề tiêu cực 
+cn tồn tại khu quản lý nhà trọ theo cách thức thủ công để việc đưa ra phương hướng 
+thay đổi sao cho thch hợp, hợp lý nhất được thực hiện hiệu quả và chuẩn xác.
+Ri ro trong quản lý khách trọ: 
+An toàn cho khách thuê, duy trì an ninh cho khu trọ là yêu cầu cơ bản cần được 
+đảm bảo, đáp ứng đầy đủ khi cho thuê nhà trọ. Khi có thể đảm bảo được yếu tố an ninh, 
+an toàn cao mới giúp nâng cao chất lượng dch vụ nhà trọ cho thuê mà chúng ta đang 
+kinh doanh. Việc quản lý khách thuê là vấn đề cơ bản, quan trọng cần chú ý cân nhắc, 
+xem xt một cách chuẩn xác và toàn diện nhằm đảm bảo giúp việc nâng cao an ninh, an 
+toàn khi cho thuê nhà trọ được đảm bảo tới mức tối đa. 
+1.6. Hướng giải quyết 
+Lợi ch khi sử dụng phần mềm quản lý nhà trọ: Hoàn toàn khác biệt với việc quản 
+lý bằng cách thức thủ công thì sử dụng phần mềm nhà trọ ngày càng được ưa chuộng, tin 
+tưởng bởi những lợi thế, ưu điểm nổi bật mang lại. Từ những lợi ch thiết thực mà một 
+phần mềm hỗ trợ quản lý phòng trọ cho thuê mang lại thì tìm hiểu thông tin, tnh toán và 
+cân nhắc một cách thch hợp giúp quản lý nhà trọ cho thuê diễn ra thuận lợi, suôn s như 
+ý muốn được thực hiện tốt nhất. 
+Việc quản lý nhà trọ không thch hợp, khoa học và hiệu quả có thể ảnh hưởng tới 
+chnh yếu tố kinh tế. Nguy cơ chu những hao hút tiền bạc không cần thiết trong quá trình 
+cho thuê nhà trọ hoàn toàn có thể xuất hiện mà chúng ta hoàn toàn không mong muốn 
+gặp phải. Mọi rủi ro đều có thể xuất hiện, vào bất k thời điểm nào khi tiến hành quản lý 
+thủ công. Bởi thế, tnh toán và cân nhắc ứng dụng phần mềm hỗ trợ trở thành giải pháp lý 
+tưởng, lựa chọn hoàn hảo đáng để cân nhắc. Giảm thiểu tới mức tối đa những rủi ro xuất 
+hiện, từ đó việc hao hụt tiền bạc khó có thể xảy ra. 
+Mọi thông tin liên quan từ thông tin khách thuê, đặc điểm của khách thuê, loại 
+phng cho thuê, hay thời điểm thuê và trả phng, chi ph điện nước,… và mọi tin tức 
+khác đều có thể cập nhật đầy đủ, chi tiết và chuẩn xác. Nó đảm bảo giúp việc cho thuê 
+diễn ra suôn s, không có những sai sót có khả năng xuất hiện, gây ra những phiền toái 
+không mong muốn 
+Ứng dụng một phần mềm tnh tiền cho kinh doanh nhà trọ thì việc quản lý khoa 
+học và hợp lý, thiết lập các php tnh chuẩn xác và thch hợp đều được đảm bảo. Lúc đó, 
+việc có thể tnh toán mọi chi ph chuẩn xác, xuất hóa đơn chi tiết cho từng phng được 
+tiến hành suôn s. Qua đó, cho thuê diễn ra thuận lợi, thành công như ý muốn được đảm 
+bảo tốt như mong đợi. 
+Đặc biệt, với những chủ nhà trọ bận rộn, không có thời gian quản lý phải thuê 
+người thực hiện mọi cộng việc vô tình dẫn tới những hao tốn về chi ph không cần thiết. 
+Bởi thế, tiến hành cân nhắc, tìm hiểu và chọn một phần mềm thch hợp vừa đem lại hiệu 
+quả ứng dụng cao, hỗ trợ cho công việc kinh doanh tốt lại tránh những hao tốn, lãng ph 
+chi ph không đáng có có thể xuất hiện được thực hiện hiệu quả.
+ 
+ 
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT 
+2.1. Android studio 
+Android Studio là Môi trường phát triển tch hợp (IDE) chnh thức để phát triển ứng 
+dụng Android, dựa trên IntelliJ IDEA . Ngoài các công cụ dành cho nhà phát triển và 
+biên tập mã mạnh mẽ của IntelliJ, Android Studio cung cấp nhiều tnh năng hơn nữa 
+để nâng cao năng suất của bạn khi xây dựng các ứng dụng Android, chẳng hạn như: 
+➢ Hệ thống xây dựng dựa trên Gradle linh hoạt 
+➢ Trình giả lập nhanh và giàu tnh năng 
+➢ Một môi trường hợp nhất, nơi bạn có thể phát triển cho tất cả các thiết b Android 
+➢ Áp dụng các Thay đổi để đẩy mã và thay đổi tài nguyên cho ứng dụng đang chạy 
+của bạn mà không cần khởi động lại ứng dụng của bạn 
+➢ Các mẫu mã và tch hợp GitHub để giúp bạn xây dựng các tnh năng ứng dụng phổ 
+biến và nhập mã mẫu 
+➢ Các công cụ và khuôn khổ thử nghiệm mở rộng 
+➢ Các công cụ của Lint để nắm bắt hiệu suất, khả năng sử dụng, khả năng tương thch 
+của phiên bản và các vấn đề khác 
+➢ Hỗ trợ C ++ và NDK ü Hỗ trợ tch hợp cho Google Cloud Platform , giúp dễ dàng 
+tch hợp Google Cloud Messaging và App Engine 
+2.2. SQLite 
+SQLite là gì? 
+➢ SQLite là một thư viện phần mềm mà triển khai một SQL Database Engine, không 
+cần máy chủ, không cần cấu hình, khp kn và nhỏ gọn. Nó là một cơ sở dữ liệu, 
+không cần cấu hình, có nghĩa là giống như các cơ sở dữ liệu khác mà bạn không cần 
+phải cấu hình nó trong hệ thống của mình. 
+➢ SQLite engine không phải là một quy trình độc lập (standalone process) như các cơ 
+sở dữ liệu khác, bạn có thể liên kết nó một cách tĩnh hoặc động tùy theo yêu cầu của 
+bạn với ứng dụng của bạn. SQLite truy cập trực tiếp các file lưu trữ (storage files) 
+của nó. 
+Tại sao lại là SQLite? 
+➢ SQLite không yêu cầu một quy trình hoặc hệ thống máy chủ riêng biệt để hoạt động. 
+➢ SQLite không cần cấu hình, có nghĩa là không cần thiết lập hoặc quản tr. 
+ 
+ 
+➢ Một cơ sở dữ liệu SQLite hoàn chỉnh được lưu trữ trong một file disk đa nền tảng 
+(cross-platform disk file). 
+➢ SQLite rất nhỏ và trọng lượng nhẹ, dưới 400KiB được cấu hình đầy đủ hoặc dưới 
+250KiB với các tnh năng tùy chọn b bỏ qua. 
+➢ SQLite là khép kín (self-contained), có nghĩa là không có phụ thuộc bên ngoài. 
+➢ Các transaction trong SQLite hoàn toàn tuân thủ ACID, cho php truy cập an toàn 
+từ nhiều tiến trình (process) hoặc luồng (thread). 
+➢ SQLite hỗ trợ hầu hết các tnh năng ngôn ngữ truy vấn (query language) được tìm 
+thấy trong tiêu chuẩn SQL92 (SQL2). 
+➢ SQLite được viết bằng ANSI-C và cung cấp API đơn giản và dễ sử dụng. 
+➢ SQLite có sẵn trên UNIX (Linux, Mac OS-X, Android, iOS) và Windows (Win32, 
+WinCE, WinRT). 
+2.3. Java 
+Java là gì? 
+➢ Java là một một ngôn ngữ lập trình hiện đại, bậc cao, hướng đối tượng, bảo mật và 
+mạnh mẽ. và là một Platform. 
+➢ Platform: Bất cứ môi trường phần cứng hoặc phần mềm nào mà trong đó có một 
+chương trình chạy, thì được hiểu như là một Platform. Với môi trường runtime riêng 
+cho mình (JRE) và API, Java được gọi là Platform. 
+➢ Ngôn ngữ lập trình Java ban đầu được phát triển bởi Sun Microsystems do James 
+Gosling  khởi  xướng  và  phát  hành  vào  năm  1995.  Phiên bản  mới  nhất  của  Java 
+Standard Edition là Java SE 8. Với sự tiến bộ của Java và sự phổ biến rộng rãi của 
+nó, nhiều cấu hình đã được xây dựng để phù hợp với nhiều loại nền tảng khác nhau. 
+V dụ: J2EE cho các ứng dụng doanh nghiệp, J2ME cho các ứng dụng di động. 
+➢ Các phiên bản J2 mới đã được đổi tên thành Java SE, Java EE và Java ME. Phương 
+châm của java là "Write Once, Run Anywhere" - viết một lần chạy nhiều nơi, nghĩa 
+là bạn chỉ cần viết một lần trên window chẳng hạn, sau đó vẫn chương trình đó bạn 
+có thể chạy trên Linux, Android, các thiết b J2ME... 
+Các tính năng của Java 
+➢ Hướng đối tượng - Trong Java, mọi thứ đều là một Object. Java có thể dễ dàng mở 
+rộng và bảo trì vì nó được xây dựng dựa trên mô hình Object. 
+➢ Nền tảng độc lập - Không giống nhiều ngôn ngữ lập trình khác bao gồm cả C và C 
+++, khi Java được biên dch, nó không được biên dch thành ngôn 
+➢ ngữ máy nền tảng cụ thể, thay vào mã byte - nền tảng độc lập. Mã byte này được 
+thông dch bởi máy ảo (JVM) trên nền tảng nào đó mà nó đang chạy. 
+➢ Đơn giản - Java được thiết kế để dễ học. Nếu bạn hiểu khái niệm cơ bản về OOP 
+Java, sẽ rất dễ để trở thành master về java. 
+➢ Bảo mật - Với tnh năng an toàn của Java, nó cho php phát triển các hệ thống không 
+có virut, giả mạo. Các kỹ thuật xác thực dựa trên mã hoá khóa công khai. 
+➢ Kiến trúc - trung lập - Trình biên dch Java tạo ra đnh dạng tệp đối tượng kiến trúc 
+trung lập, làm cho mã biên dch được thực thi trên nhiều bộ vi xử lý, với sự hiện 
+diện của hệ điều hành Java. 
+➢ Portable - Là kiến trúc tập trung và không có kha cạnh thực hiện phụ thuộc của đặc 
+tả này làm cho Java khả chuyển. Trình biên dch trong Java được viết bằng ANSI 
+C, đó là một tập con POSIX. 
+➢ Mạnh mẽ - Java làm nỗ lực để loại trừ các tình huống dễ b lỗi bằng cách kiểm tra 
+lỗi tại thời gian biên dch và kiểm tra lỗi tại runtime. 
+➢ Đa luồng - Với tnh năng đa luồng của Java có thể viết các chương trình có thể thực 
+hiện nhiều tác vụ đồng thời. Tnh năng thiết kế này cho php các nhà phát triển xây 
+dựng các ứng dụng tương tác có thể chạy trơn tru hơn. 
+➢ Thông dch - Mã byte Java được dch trực tiếp tới các máy tnh gốc và không được 
+lưu trữ ở bất cứ đâu. 
+➢ Hiệu năng cao - Với việc sử dụng trình biên dch Just-In-Time, Java cho php thực 
+hiện hiệu năng cao. 
+➢ Phân tán - Java được thiết kế cho môi trường phân tán của Internet. 
+➢ Năng động - Java là năng động hơn C hoặc C++ vì nó được thiết kế để thch nghi 
+với môi trường đang phát triển. Các chương trình Java có thể mang một lượng lớn 
+thông tin tại runtime mà có thể được sử dụng để xác minh và giải quyết các truy cập 
+vào các đối tượng tại runtime.
+ 
+ 
+CHƯƠNG 3: PHÂN TÍCH THIẾT KẾ HỆ THỐNG 
+ 
+3.1. Xác định yêu cầu: 
+a Khảo sát nhu cầu thực tế: 
+Qua khảo sát hiện trạng hệ thống hiện nay cho thấy cn các khó khăn sau: 
+Quản lí thủ công gây thất thoát dữ liệu, khó khăn trong việc quản lý trọ, gây tốn 
+kém thời gian công sức. 
+Các đối tượng cần phải quản lý Trọ: quản lý phòng, quản lý khách thuê phòng, 
+quản lý hóa đơn... 
+b Yêu cầu chức năng: 
+➢ Đăng nhập, Tạo Tài Khoản. 
+➢ Quản lý thông tin phòng. 
+➢ Quản lý thông tin khách thuê phòng 
+➢ Quản lý hóa đơn tiền trọ. 
+c Yêu cầu phi chức năng: 
+➢ Đảm bảo tính bảo mật. 
+➢ Tốc độ xử lý phải nhanh. 
+➢ Nghiệp vụ phải rõ ràng, không được sai xót. 
+➢ Giao diện ứng dụng phải ưu nhìn.
+a Danh sách các Actor: 
+STT 
+Tên Actor 
+Mô tả 
+1 
+Chủ Trọ 
+Quản lý trọ: QL phng, khách thuê, hóa đơn. 
+Bảng 1 Danh sách Actor 
+b Danh sách các Usecase: 
+STT 
+Tên Use Case 
+Mô Tả 
+1 
+Đăng Nhập 
+Đăng nhập vào ứng dụng, phải có tài khoản đã 
+được đăng ký trước đó trên ứng dụng. 
+2 
+Đăng Xuất 
+Đăng Xuất khỏi tài khoản đã đăng nhập trước đó 
+3 
+Đăng Ký 
+Đăng ký tài khoản trên ứng dụng 
+4 
+Quản Lý Phòng 
+Quản lý các phòng: thêm, xóa, sửa,.. 
+5 
+Quản Lý Khách Thuê 
+Quản lý khách thuê của một phòng: thêm, xóa, 
+sửa,.. 
+6 
+Quản Lý Hóa Đơn 
+Quản lý hóa đơn thanh toán phòng: Xác nhận 
+thanh toán, thêm, xóa, sửa.
+c Đặc tả usecase 
+- Usecase đăng nhập 
+Use Case ID 
+UC-1.1 
+Tên usecase 
+Đăng nhập 
+Tóm tắt 
+ 
+Đăng nhập vào ứng dụng, phải có tài 
+khoản đã được đăng ký trước đó trên ứng 
+dụng 
+Actor(s) 
+Chủ trọ 
+Dòng sự kiện chính 
+ 
+Use case bắt đầu khi người dùng nhấn vào 
+nút “Đăng nhập” 
+Hệ thống sẽ hiển th chức năng về nhà trọ. 
+Các dòng sự kiện khác 
+ 
+Không có 
+Các yêu cầu đặc biệt 
+ 
+Không có 
+Trạng thái hệ thống khi bắt đầu thực hiện 
+Use-case 
+ 
+Hệ thống phải được khởi động thành công, 
+không xảy ra lỗi 
+ 
+Trạng thái hệ thống sau khi thực hiện Use-
+case 
+ 
+Sau khi thực hiện Use case thành công hệ 
+thống phải hiển th thông tin một cách đầy 
+đủ. 
+Nếu use case thất bại thì hệ thống sẽ không 
+hiển th 
+ 
+Điểm mở rộng 
+ 
+ 
+ 
+- Use case đăng kí 
+Use Case ID 
+UC-1.2 
+Tên usecase 
+Đăng k 
+Tóm tắt 
+ 
+Đăng ký tài khoản trên ứng dụng 
+Actor(s) 
+Chủ trọ 
+Dòng sự kiện chính 
+ 
+Use case nhập thông tin vào tạo tài khoản: 
+họ tên, username, mật khẩu… 
+Các dòng sự kiện khác 
+ 
+Không có 
+Các yêu cầu đặc biệt 
+ 
+Không có 
+Trạng thái hệ thống khi bắt đầu thực hiện 
+Use-case 
+ 
+Hệ thống phải được khởi động thành công, 
+không xảy ra lỗi 
+ 
+Trạng thái hệ thống sau khi thực hiện Use-
+case 
+ 
+Sau khi thực hiện Use case thành công hệ 
+thống phải hiển th thông tin một cách đầy 
+đủ. 
+Nếu use case thất bại thì hệ thống sẽ không 
+hiển th 
+ 
+Điểm mở rộng 
+Không có 
+- Use case đăng xuất 
+Use Case ID 
+UC-1.3 
+Tên usecase 
+Đăng xuất 
+Tóm tắt 
+ 
+Đăng Xuất khỏi tài khoản đã đăng nhập 
+trước đó 
+Actor(s) 
+Chủ trọ 
+Dòng sự kiện chính 
+ 
+Use case muốn thoát khỏi tài khoản 
+Các dòng sự kiện khác 
+ 
+Không có 
+Các yêu cầu đặc biệt 
+ 
+Không có 
+Trạng thái hệ thống khi bắt đầu thực hiện 
+Use-case 
+ 
+Hệ thống phải được khởi động thành công, 
+không xảy ra lỗi 
+ 
+Trạng thái hệ thống sau khi thực hiện Use-
+case 
+ 
+Sau khi thực hiện Use case thành công hệ 
+thống phải hiển th thông tin một cách đầy 
+đủ. 
+Nếu use case thất bại thì hệ thống sẽ không 
+hiển th 
+ 
+Điểm mở rộng 
+Không có
+ 
+ 
+ 
+- Use case quản lí phòng 
+Use Case ID 
+UC-1.4 
+Tên usecase 
+Quản lí phòng 
+Tóm tắt 
+ 
+Quản lý các phòng: thêm, xóa, sửa,.. 
+Actor(s) 
+Chủ trọ 
+Dòng sự kiện chính 
+ 
+Hệ thống sẽ hiển th thông tin chi tiết của 
+từng phòng gồm: 
+- Tên phòng 
+- Giá 
+ 
+Các dòng sự kiện khác 
+ 
+Nút “Cập Nhật” 
+Nút xóa phòng  
+Các yêu cầu đặc biệt 
+ 
+Không có 
+Trạng thái hệ thống khi bắt đầu thực hiện 
+Use-case 
+ 
+Hệ thống phải được khởi động thành công, 
+không xảy ra lỗi 
+ 
+Trạng thái hệ thống sau khi thực hiện Use-
+case 
+ 
+Sau khi thực hiện Use case thành công hệ 
+thống phải hiển th thông tin một cách đầy 
+đủ. 
+Nếu use case thất bại thì hệ thống sẽ không 
+hiển th 
+ 
+Điểm mở rộng 
+Không có 
+- Quản Lý Khách Thuê 
+Use Case ID 
+UC-1.5 
+Tên usecase 
+Quản Lý Khách Thuê 
+Tóm tắt 
+ 
+Quản lý khách thuê của một phòng: thêm, 
+xóa, sửa,.. 
+Actor(s) 
+Chủ trọ 
+Dòng sự kiện chính 
+ 
+Hệ thống sẽ hiển th thông tin khách thuê: 
+như họ tên, số điện thoại, đa chỉ 
+ 
+ 
+Các dòng sự kiện khác 
+ 
+Khi actor chọn xóa thì hệ thông hiển thi câu 
+hỏi: “bạn chắc chắn xóa” 
+Các yêu cầu đặc biệt 
+ 
+Không có 
+Trạng thái hệ thống khi bắt đầu thực hiện 
+Use-case 
+ 
+Hệ thống phải được khởi động thành công, 
+không xảy ra lỗi 
+ 
+Trạng thái hệ thống sau khi thực hiện Use-
+case 
+ 
+Sau khi thực hiện Use case thành công hệ 
+thống phải hiển th thông tin một cách đầy 
+đủ. 
+Nếu use case thất bại thì hệ thống sẽ không 
+hiển th 
+ 
+Điểm mở rộng 
+Không có
+ 
+ 
+ 
+- Quản Lý Ha Đơn 
+Use Case ID 
+UC-1.6 
+Tên usecase 
+Quản Lý hóa đơn 
+Tóm tắt 
+ 
+Quản lý hóa đơn thanh toán phng: Xác 
+nhận thanh toán, thêm, xóa, sửa. 
+Actor(s) 
+Chủ trọ 
+Dòng sự kiện chính 
+ 
+Use case bắt đầu khi người dùng nhấn nút 
+“Hóa đơn” 
+Hệ thống sẽ liệt kê danh sách tất cả những 
+phòng cùng với thông tin liên quan 
+Các dòng sự kiện khác 
+ 
+Không có 
+Các yêu cầu đặc biệt 
+ 
+Không có 
+Trạng thái hệ thống khi bắt đầu thực hiện 
+Use-case 
+ 
+Hệ thống phải được khởi động thành công, 
+không xảy ra lỗi 
+ 
+Trạng thái hệ thống sau khi thực hiện Use-
+case 
+ 
+Sau khi thực hiện Use case thành công hệ 
+thống phải hiển th thông tin một cách đầy 
+đủ. 
+Nếu use case thất bại thì hệ thống sẽ không 
+hiển th 
+ 
+Điểm mở rộng 
+Không có
+CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN 
+ 
+5.1. Kết quả: 
+✓ Chức năng và giao diện tương đối đầy đủ và ưa nhìn. 
+✓ Xây dựng hoàn thành cơ bản ứng dụng quản lý nhà trọ sinh viên. 
+✓ Đăng Nhập 
+✓ Đăng ký 
+✓ Quản lý phòng trọ 
+✓ Quản lý khách thuê 
+✓ Quản lý dch vụ 
+✓ Theo dõi trạng thái phòng trọ 
+✓ Có thể sử dụng trên nhiều thiết b như PC, Laptop, điện thoại cảm ứng… và đa 
+nền tảng 
+5.2. Hướng phát triển: 
+✓ Thêm Actor khách hàng: Thanh toán, xem phng, đánh giá, đặt phng,….
+TÀI LIỆU THAM KHẢO 
+[3] Ethan Holmes, Tom Bray - Getting Started with React Native: Learn to build modern 
+native iOS and Android applications using JavaScript and the incredible power of React, 
+Packt Publishing, 2015
